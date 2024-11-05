@@ -1,7 +1,7 @@
 .header img {
 	
-	animation: bounce; 
-  	animation-duration: 10s;   
+	animation: wobble; 
+  	animation-duration: 5s;   
 	width: 30%;
     display: block;
     margin-left: auto;
@@ -20,3 +20,16 @@
 	width: 200px;
 	text-align: center;
 }
+body {
+    background-image: url(https://static.wikia.nocookie.net/garfield/images/8/82/Jon%27s_house.jpg/revision/latest?cb=20140218005311);
+    background-size: cover;
+    animation: fadeIn;
+    animation-duration: 3s;
+}
+.footer {
+        bottom: 0;
+        position:fixed;
+        background-color:#c3b664;
+        width: 100%;
+        padding: 1px;
+    }
